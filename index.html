@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concrete Mix Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<h1> Concrete Mix Calculator</h1>
+<br>
+<label for="volume">Volume of concrete (wet) cft:</label>
+<input type="number" id="volWet" placeholder="Enter wet volume of concrete">
+<p id="content"> Input concrete mix ratio:</p>
+<label for="cement">Cement:</label>
+<input type="number" id="cement" placeholder="Enter cement ratio">
+<label for="sand">Sand:</label>
+<input type="number" id="sand" placeholder="Enter sand ratio">
+<label for="coarse">Coarse Aggregate:</label>
+<input type="number" id="coarse" placeholder="Enter CoarseAggregate ratio">
+<label for="water">Water:</label>
+<input type="number" id="water" placeholder="Enter water ratio">
+<br>
+<button id="btn">Calculate</button>
+<br>
+<label for="cementResult"> Bags of cement: </label>
+<span id="cementResult"></span>
+<br>
+<label for="sandResult"> Volume of sand (cft): </label>
+<span id="sandResult"></span>
+<br>
+<label for="coarseResult"> Volume of coarse aggregate (cft): </label>
+<span id="coarseResult"></span>
+<br>
+<label for="waterResult"> Volume of water (cft): </label>
+<span id="waterResult"></span>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
